@@ -12,6 +12,7 @@ html {
     font-size: 16px;
     color: #ffffff;
     background-color: var(--bgcolor1);
+    scroll-behavior: smooth;
 }
 
 * {
@@ -144,7 +145,7 @@ nav ul li a:hover {
     color: var(--primarycolor);
 }
 
-
+nav ul li a
 /* //////////////////button//////////////////// */
 
 .btn {
