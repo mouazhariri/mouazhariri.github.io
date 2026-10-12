@@ -1,0 +1,99 @@
+[
+  {
+    "id": "mobile",
+    "groupKey": "skills.group.mobile",
+    "iconKey": "smartphone",
+    "items": [
+      { "name": "Flutter" },
+      { "name": "Dart" },
+      { "name": "Android" },
+      { "name": "iOS" }
+    ]
+  },
+  {
+    "id": "architecture",
+    "groupKey": "skills.group.architecture",
+    "iconKey": "architecture",
+    "items": [
+      { "name": "Clean Architecture" },
+      { "name": "OOP" },
+      { "name": "SOLID" },
+      { "name": "Design Patterns" },
+      { "name": "Feature-First Structure" }
+    ]
+  },
+  {
+    "id": "state",
+    "groupKey": "skills.group.state",
+    "iconKey": "state",
+    "items": [
+      { "name": "Riverpod" },
+      { "name": "Bloc" },
+      { "name": "Provider" },
+      { "name": "GetX" }
+    ]
+  },
+  {
+    "id": "api",
+    "groupKey": "skills.group.api",
+    "iconKey": "api",
+    "items": [
+      { "name": "REST API" },
+      { "name": "Dio" },
+      { "name": "GraphQL" },
+      { "name": "Firebase" },
+      { "name": "Socket.IO" },
+      { "name": "Push Notifications" }
+    ]
+  },
+  {
+    "id": "backend",
+    "groupKey": "skills.group.backend",
+    "iconKey": "backend",
+    "items": [
+      { "name": "Node.js" },
+      { "name": "Express" },
+      { "name": "Python" },
+      { "name": "FastAPI" },
+      { "name": "MongoDB" }
+    ]
+  },
+  {
+    "id": "databases",
+    "groupKey": "skills.group.databases",
+    "iconKey": "database",
+    "items": [
+      { "name": "Firebase" },
+      { "name": "MySQL" },
+      { "name": "MongoDB" },
+      { "name": "Supabase" },
+      { "name": "SQLite" },
+      { "name": "Hive" }
+    ]
+  },
+  {
+    "id": "tools",
+    "groupKey": "skills.group.tools",
+    "iconKey": "tools",
+    "items": [
+      { "name": "Git" },
+      { "name": "GitLab" },
+      { "name": "GitHub Actions" },
+      { "name": "CI/CD" },
+      { "name": "Figma" },
+      { "name": "Postman" }
+    ]
+  },
+  {
+    "id": "testing",
+    "groupKey": "skills.group.testing",
+    "iconKey": "testing",
+    "items": [
+      { "name": "Unit Testing" },
+      { "name": "Widget Testing" },
+      { "name": "Integration Testing" },
+      { "name": "Debugging" },
+      { "name": "Code Review" }
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "type": "github",
+    "url": "https://github.com/mouazhariri",
+    "labelKey": "social.github"
+  },
+  {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/mouaz-hariri-88ab7823a/",
+    "labelKey": "social.linkedin"
+  },
+  {
+    "type": "whatsapp",
+    "url": "https://wa.me/963954701776?text=Hi%20Mouaz!%20I%20found%20your%20portfolio.",
+    "labelKey": "social.whatsapp"
+  },
+  {
+    "type": "telegram",
+    "url": "https://t.me/mouazHy",
+    "labelKey": "social.telegram"
+  },
+  {
+    "type": "email",
+    "url": "mailto:mouazhariri12@gmail.com",
+    "labelKey": "social.email"
+  }
+]

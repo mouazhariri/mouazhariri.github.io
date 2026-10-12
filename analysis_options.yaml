@@ -1,0 +1,23 @@
+# Strict baseline per FLUTTER_PROJECT_STANDARDS.md §12/§14
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  errors:
+    invalid_annotation_target: ignore # freezed + json_serializable
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+
+linter:
+  rules:
+    always_declare_return_types: true
+    avoid_print: true
+    prefer_single_quotes: true
+    prefer_const_constructors: true
+    unawaited_futures: true
+    use_build_context_synchronously: true
+    sort_child_properties_last: true
+    depend_on_referenced_packages: true
+    directives_ordering: true
+    prefer_final_locals: true
+    unnecessary_lambdas: true

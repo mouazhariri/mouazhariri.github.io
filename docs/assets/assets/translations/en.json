@@ -1,0 +1,309 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact",
+    "hireMe": "Hire Me"
+  },
+  "hero": {
+    "hello": "Hi, I'm",
+    "available": "Available for new opportunities",
+    "roles": {
+      "flutter": "Flutter Developer",
+      "senior": "Senior Flutter Team Lead",
+      "fullstack": "Full-Stack Mobile Developer"
+    },
+    "summary": "I craft production-grade mobile and web apps with nearly 5 years of experience — from clean architecture and pixel-perfect UI to real-time systems and smooth animations.",
+    "cta": {
+      "contact": "Get in Touch",
+      "cv": "Download CV"
+    },
+    "floating": {
+      "years": "Years of Experience",
+      "projects": "Projects Shipped"
+    },
+    "scroll": "scroll to explore"
+  },
+  "stats": {
+    "years": "Years of Experience",
+    "projects": "Projects Delivered",
+    "clients": "Happy Clients",
+    "countries": "Countries Served"
+  },
+  "about": {
+    "overline": "About Me",
+    "title": "Passionate about building great products",
+    "subtitle": "A quick look at who I am and what drives me.",
+    "summary": "I'm a Senior Flutter Developer and team lead based in Damascus, currently working remotely with Akwad in Qatar. For nearly 5 years I've designed and shipped production-grade iOS & Android apps using Clean Architecture, SOLID principles and modern state management.",
+    "summary2": "Beyond mobile, I'm actively growing my backend and full-stack skills with Python, FastAPI and Node.js — so I can own a product from database to pixel.",
+    "facts": {
+      "location": "Location",
+      "email": "Email",
+      "phone": "Phone",
+      "languages": "Languages",
+      "languagesValue": "Arabic (native) · English (professional)"
+    },
+    "downloadCv": "Download CV",
+    "letsTalk": "Let's Talk"
+  },
+  "services": {
+    "overline": "Services",
+    "title": "What I do best",
+    "subtitle": "End-to-end product development, from idea to app store.",
+    "mobile": {
+      "title": "Mobile App Development",
+      "description": "High-performance Flutter apps for iOS and Android — fast, reliable and beautiful on every screen."
+    },
+    "architecture": {
+      "title": "Clean Architecture & SOLID",
+      "description": "Scalable, testable codebases built on Clean Architecture, feature-first structure and OOP principles."
+    },
+    "state": {
+      "title": "State Management",
+      "description": "Modern reactive state with Riverpod, Bloc and Provider — predictable and easy to maintain."
+    },
+    "api": {
+      "title": "API & Integration",
+      "description": "REST API integration with Dio, Firebase, Socket.IO realtime and third-party SDKs."
+    },
+    "backend": {
+      "title": "Backend Development",
+      "description": "Full-stack power with Python, FastAPI, Node.js and MongoDB for robust server-side systems."
+    },
+    "uiux": {
+      "title": "UI/UX & Animations",
+      "description": "Pixel-perfect interfaces, micro-interactions and delightful animations — fully RTL and responsive."
+    }
+  },
+  "skills": {
+    "overline": "Skills",
+    "title": "Skills & Technologies",
+    "subtitle": "The tools, languages and practices I rely on to ship reliable software end to end.",
+    "group": {
+      "mobile": "Mobile Development",
+      "architecture": "Architecture & Patterns",
+      "state": "State Management",
+      "api": "API & Integration",
+      "backend": "Backend Development",
+      "databases": "Databases & Storage",
+      "tools": "Tools & Workflow",
+      "testing": "Testing & Quality"
+    }
+  },
+  "experience": {
+    "overline": "Career",
+    "title": "My professional journey",
+    "subtitle": "Places I've worked and things I've led along the way.",
+    "akwad": {
+      "role": "Senior Flutter Developer — Team Lead",
+      "period": "Jan 2025 — Present",
+      "type": "Full-time · Remote",
+      "h1": "Leading Flutter development, architecture decisions and code review for production apps.",
+      "h2": "Mentoring developers and driving clean, scalable codebases.",
+      "h3": "Collaborating with product and design teams to ship high-quality features."
+    },
+    "raqi": {
+      "role": "Flutter Developer",
+      "period": "Jul 2024 — Nov 2024",
+      "type": "Full-time · On-site",
+      "h1": "Built and maintained Flutter applications with Clean Architecture.",
+      "h2": "Integrated REST APIs, Firebase services and realtime features."
+    },
+    "appa": {
+      "role": "Flutter Developer",
+      "period": "Feb 2023 — Jul 2024",
+      "type": "Full-time · On-site",
+      "h1": "Developed multiple production apps across e-commerce, entertainment and services.",
+      "h2": "Collaborated in cross-functional teams using Git and CI workflows."
+    },
+    "freelance": {
+      "role": "Full-Stack Mobile Developer",
+      "period": "Nov 2021 — Present",
+      "type": "Freelance · Remote",
+      "h1": "Delivered end-to-end mobile products for clients across several countries.",
+      "h2": "Owned requirements, architecture, development and store releases.",
+      "h3": "Built 20+ apps — marketplaces, delivery, social, radio, music and more."
+    },
+    "education": {
+      "role": "Bachelor of Information Technology (BAIT)",
+      "period": "Apr 2021 — Jan 2027",
+      "type": "Education",
+      "h1": "Studying Information Technology with a focus on software engineering and system design."
+    }
+  },
+  "education": {
+    "overline": "Education",
+    "title": "Education & Certifications"
+  },
+  "projects": {
+    "overline": "Portfolio",
+    "title": "Projects I've built",
+    "subtitle": "A selection of production apps and products I've contributed to.",
+    "filter": {
+      "all": "All"
+    },
+    "cat": {
+      "e_commerce": "E-Commerce",
+      "services": "Services",
+      "delivery": "Delivery",
+      "productivity": "Productivity",
+      "social": "Social",
+      "entertainment": "Entertainment",
+      "web_backend": "Web & Backend",
+      "finance": "Finance",
+      "other": "Other"
+    },
+    "meat_empire": {
+      "title": "Meat Empire",
+      "description": "A meat-shopping application built with Clean Architecture alongside another developer.",
+      "h1": "Clean Architecture codebase",
+      "h2": "Published on the App Store & Google Play"
+    },
+    "widam": {
+      "title": "Widam",
+      "description": "Maintained and enhanced a meat-shopping app — features, bug fixes and updates using Clean Architecture.",
+      "h1": "Feature additions & live bug fixes",
+      "h2": "Published on the App Store & Google Play"
+    },
+    "ehtezam": {
+      "title": "Ehtezam",
+      "description": "Customer & driver apps for roadside assistance and vehicle towing.",
+      "h1": "Three request flows: quick orders, QR-code requests and price offers",
+      "h2": "Realtime communication with Socket.IO",
+      "h3": "Firebase notifications and Google Maps integration"
+    },
+    "saba": {
+      "title": "Saba",
+      "description": "Field sales and delivery management for Vansell, Salesman and Driver roles.",
+      "h1": "Orders, customers and supermarket connections",
+      "h2": "Inventory tracking for field teams",
+      "h3": "Role-based delivery workflows"
+    },
+    "souq_oqaz": {
+      "title": "Souq Oqaz",
+      "description": "An online marketplace for buying and selling products with a bidding feature.",
+      "h1": "Auction & bidding flow",
+      "h2": "Published on the App Store & Google Play"
+    },
+    "high_class_services": {
+      "title": "High Class Services",
+      "description": "A service-booking and task-management platform for clients and drivers.",
+      "h1": "Client and driver applications",
+      "h2": "Clean Architecture, jobs & task management"
+    },
+    "tech_trivia": {
+      "title": "Tech Trivia",
+      "description": "An educational quiz game that makes learning technology fun.",
+      "h1": "Engaging, gamified quiz experience"
+    },
+    "exhibition": {
+      "title": "Exhibition Guide",
+      "description": "A cultural exhibition app that guides visitors through halls and exhibits.",
+      "h1": "Interactive tour experience"
+    },
+    "social_app": {
+      "title": "Social App",
+      "description": "A social networking application for connecting people and sharing moments.",
+      "h1": "Realtime messaging & feeds"
+    },
+    "restaurants_booking": {
+      "title": "Restaurants Booking",
+      "description": "A table reservation app for discovering and booking restaurants.",
+      "h1": "Seamless table reservations"
+    },
+    "invite": {
+      "title": "Invite",
+      "description": "An elegant event invitation card application with customizable designs.",
+      "h1": "Beautiful digital invitations"
+    },
+    "iptv": {
+      "title": "IPTV App",
+      "description": "An IPTV streaming application built with Clean Architecture.",
+      "h1": "Live channel streaming experience"
+    },
+    "imtn": {
+      "title": "iMTN App",
+      "description": "Contributed to the iMTN mobile application using Clean Architecture.",
+      "h1": "Production telecom services app"
+    },
+    "orders_delivery": {
+      "title": "Orders Delivery",
+      "description": "An order-delivery application with a driver app, built with Clean Architecture.",
+      "h1": "Independent driver app built from scratch"
+    },
+    "radio_app": {
+      "title": "Radio App",
+      "description": "An internet radio application for streaming live stations.",
+      "h1": "Live station streaming & playback"
+    },
+    "music_app": {
+      "title": "Music App",
+      "description": "A music application developed with the Appa Group team using Clean Architecture.",
+      "h1": "Audio playback with a clean codebase"
+    },
+    "wedding_app": {
+      "title": "Wedding App",
+      "description": "A wedding guest check-in application featuring QR-code verification.",
+      "h1": "QR-code guest check-in",
+      "h2": "Built with Riverpod and Clean Architecture"
+    },
+    "cruds_mongo": {
+      "title": "CRUDs with MongoDB",
+      "description": "A CRUD application built with Node.js, Express.js and MongoDB.",
+      "h1": "Full-stack CRUD operations"
+    },
+    "finance_project": {
+      "title": "Finance Project",
+      "description": "A finance application powered by a Python/FastAPI backend.",
+      "h1": "Financial data with a FastAPI service"
+    }
+  },
+  "contact": {
+    "overline": "Contact",
+    "title": "Let's work together",
+    "subtitle": "Got an idea, a project or an opportunity? My inbox is always open.",
+    "availability": "Available for new projects",
+    "info": {
+      "email": "Email",
+      "phone": "Phone",
+      "whatsapp": "WhatsApp",
+      "whatsappValue": "Chat directly",
+      "telegram": "Telegram",
+      "telegramValue": "Chat on Telegram",
+      "location": "Location"
+    },
+    "form": {
+      "title": "Send me a message",
+      "name": "Your name",
+      "email": "Your email",
+      "message": "Your message",
+      "send": "Send via Email",
+      "required": "Please fill this field"
+    },
+    "cta": {
+      "title": "Got a project in mind?",
+      "subtitle": "Whether you need a complete app or help with an existing one — I'm one message away.",
+      "whatsapp": "Chat on WhatsApp",
+      "telegram": "Chat on Telegram",
+      "email": "Email me",
+      "response": "I usually respond within ",
+      "responseHighlight": "24 hours."
+    }
+  },
+  "footer": {
+    "tagline": "Senior Flutter Developer crafting production-grade mobile & web apps.",
+    "rights": "Mouaz Hariri — All rights reserved.",
+    "builtWith": "Built with"
+  },
+  "social": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "email": "Email"
+  }
+}

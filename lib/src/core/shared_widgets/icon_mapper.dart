@@ -1,0 +1,82 @@
+import 'package:flutter/material.dart';
+
+/// Maps the `iconKey` values used in the portfolio data to [IconData].
+IconData portfolioIcon(String key) {
+  switch (key) {
+    // Services
+    case 'smartphone':
+      return Icons.smartphone_rounded;
+    case 'architecture':
+      return Icons.account_tree_rounded;
+    case 'state':
+      return Icons.dynamic_feed_rounded;
+    case 'api':
+      return Icons.api_rounded;
+    case 'backend':
+      return Icons.storage_rounded;
+    case 'uiux':
+      return Icons.design_services_rounded;
+    case 'database':
+      return Icons.dataset_rounded;
+    case 'tools':
+      return Icons.handyman_rounded;
+    case 'testing':
+      return Icons.bug_report_rounded;
+    // Categories
+    case 'storefront':
+      return Icons.storefront_rounded;
+    case 'delivery':
+      return Icons.local_shipping_rounded;
+    case 'services':
+      return Icons.support_agent_rounded;
+    case 'productivity':
+      return Icons.assessment_rounded;
+    case 'social':
+      return Icons.people_rounded;
+    case 'entertainment':
+      return Icons.movie_rounded;
+    case 'web_backend':
+      return Icons.code_rounded;
+    case 'finance':
+      return Icons.account_balance_rounded;
+    // Projects
+    case 'meal':
+      return Icons.restaurant_rounded;
+    case 'towing':
+      return Icons.emergency_rounded;
+    case 'inventory':
+      return Icons.inventory_2_rounded;
+    case 'marketplace':
+      return Icons.shopping_bag_rounded;
+    case 'spa':
+      return Icons.spa_rounded;
+    case 'quiz':
+      return Icons.quiz_rounded;
+    case 'museum':
+      return Icons.museum_rounded;
+    case 'forum':
+      return Icons.forum_rounded;
+    case 'booking':
+      return Icons.event_available_rounded;
+    case 'gift':
+      return Icons.card_giftcard_rounded;
+    case 'tv':
+      return Icons.live_tv_rounded;
+    case 'sim':
+      return Icons.phone_android_rounded;
+    case 'radio':
+      return Icons.radio_rounded;
+    case 'music':
+      return Icons.music_note_rounded;
+    case 'wedding':
+      return Icons.favorite_rounded;
+    case 'terminal':
+      return Icons.terminal_rounded;
+    case 'graduation':
+      return Icons.school_rounded;
+    case 'work':
+      return Icons.work_rounded;
+    default:
+      return Icons.category_rounded;
+  }
+}

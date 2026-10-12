@@ -1,0 +1,20 @@
+{
+  "name": "Mouaz Hariri",
+  "monogram": "MH",
+  "roleTitles": [
+    "hero.roles.flutter",
+    "hero.roles.senior",
+    "hero.roles.fullstack"
+  ],
+  "summaryKey": "hero.summary",
+  "location": "Dahyaa Qudsyaa, Damascus, Syria",
+  "email": "mouazhariri12@gmail.com",
+  "phone": "+963 954 701 776",
+  "phoneLink": "963954701776",
+  "stats": [
+    { "labelKey": "stats.years", "value": 5, "suffix": "+" },
+    { "labelKey": "stats.projects", "value": 20, "suffix": "+" },
+    { "labelKey": "stats.clients", "value": 5, "suffix": "+" },
+    { "labelKey": "stats.countries", "value": 4, "suffix": "" }
+  ]
+}

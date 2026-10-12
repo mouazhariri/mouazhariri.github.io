@@ -1,0 +1,50 @@
+[
+  {
+    "id": "mobile",
+    "iconKey": "smartphone",
+    "accentHex": "#6366F1",
+    "titleKey": "services.mobile.title",
+    "descriptionKey": "services.mobile.description",
+    "tags": ["Flutter", "Dart", "iOS", "Android"]
+  },
+  {
+    "id": "architecture",
+    "iconKey": "architecture",
+    "accentHex": "#A78BFA",
+    "titleKey": "services.architecture.title",
+    "descriptionKey": "services.architecture.description",
+    "tags": ["Clean Architecture", "SOLID", "OOP"]
+  },
+  {
+    "id": "state",
+    "iconKey": "state",
+    "accentHex": "#22D3EE",
+    "titleKey": "services.state.title",
+    "descriptionKey": "services.state.description",
+    "tags": ["Riverpod", "Bloc", "Provider"]
+  },
+  {
+    "id": "api",
+    "iconKey": "api",
+    "accentHex": "#F59E0B",
+    "titleKey": "services.api.title",
+    "descriptionKey": "services.api.description",
+    "tags": ["REST", "Dio", "Firebase", "Socket.IO"]
+  },
+  {
+    "id": "backend",
+    "iconKey": "backend",
+    "accentHex": "#10B981",
+    "titleKey": "services.backend.title",
+    "descriptionKey": "services.backend.description",
+    "tags": ["Python", "FastAPI", "Node.js", "MongoDB"]
+  },
+  {
+    "id": "uiux",
+    "iconKey": "uiux",
+    "accentHex": "#EC4899",
+    "titleKey": "services.uiux.title",
+    "descriptionKey": "services.uiux.description",
+    "tags": ["UI/UX", "Animations", "RTL", "Responsive"]
+  }
+]

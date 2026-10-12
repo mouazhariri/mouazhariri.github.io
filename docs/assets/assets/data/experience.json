@@ -1,0 +1,71 @@
+[
+  {
+    "id": "akwad",
+    "company": "Akwad",
+    "roleKey": "experience.akwad.role",
+    "periodKey": "experience.akwad.period",
+    "location": "Qatar · Remote",
+    "typeKey": "experience.akwad.type",
+    "iconKey": "work",
+    "isCurrent": true,
+    "highlights": [
+      "experience.akwad.h1",
+      "experience.akwad.h2",
+      "experience.akwad.h3"
+    ]
+  },
+  {
+    "id": "raqi",
+    "company": "RaQi co",
+    "roleKey": "experience.raqi.role",
+    "periodKey": "experience.raqi.period",
+    "location": "Syria · On-site",
+    "typeKey": "experience.raqi.type",
+    "iconKey": "work",
+    "highlights": [
+      "experience.raqi.h1",
+      "experience.raqi.h2"
+    ]
+  },
+  {
+    "id": "appa",
+    "company": "Appa Group",
+    "roleKey": "experience.appa.role",
+    "periodKey": "experience.appa.period",
+    "location": "Syria · On-site",
+    "typeKey": "experience.appa.type",
+    "iconKey": "work",
+    "highlights": [
+      "experience.appa.h1",
+      "experience.appa.h2"
+    ]
+  },
+  {
+    "id": "freelance",
+    "company": "Freelance Projects",
+    "roleKey": "experience.freelance.role",
+    "periodKey": "experience.freelance.period",
+    "location": "Remote",
+    "typeKey": "experience.freelance.type",
+    "iconKey": "work",
+    "isCurrent": true,
+    "highlights": [
+      "experience.freelance.h1",
+      "experience.freelance.h2",
+      "experience.freelance.h3"
+    ]
+  },
+  {
+    "id": "education",
+    "company": "University",
+    "roleKey": "experience.education.role",
+    "periodKey": "experience.education.period",
+    "location": "Syria",
+    "typeKey": "experience.education.type",
+    "iconKey": "graduation",
+    "isEducation": true,
+    "highlights": [
+      "experience.education.h1"
+    ]
+  }
+]

@@ -1,0 +1,275 @@
+[
+  {
+    "id": "meat_empire",
+    "category": "e_commerce",
+    "iconKey": "meal",
+    "accentHex": "#EF4444",
+    "titleKey": "projects.meat_empire.title",
+    "descriptionKey": "projects.meat_empire.description",
+    "highlights": [
+      "projects.meat_empire.h1",
+      "projects.meat_empire.h2"
+    ],
+    "tech": ["Flutter", "Dart", "Clean Architecture", "REST API", "Firebase"],
+    "links": [
+      { "type": "app_store", "url": "https://apps.apple.com/us/app/meat-empire/id6754558680" },
+      { "type": "play_store", "url": "https://play.google.com/store/apps/details?id=qa.app.meatEmpire" }
+    ]
+  },
+  {
+    "id": "widam",
+    "category": "e_commerce",
+    "iconKey": "meal",
+    "accentHex": "#F97316",
+    "titleKey": "projects.widam.title",
+    "descriptionKey": "projects.widam.description",
+    "highlights": [
+      "projects.widam.h1",
+      "projects.widam.h2"
+    ],
+    "tech": ["Flutter", "Dart", "Clean Architecture", "Firebase"],
+    "links": [
+      { "type": "app_store", "url": "https://apps.apple.com/us/app/widam-%D9%88%D8%AF%D8%A7%D9%85/id993625869" },
+      { "type": "play_store", "url": "https://play.google.com/store/apps/details?id=net.ays.PROD489402&hl=en" }
+    ]
+  },
+  {
+    "id": "ehtezam",
+    "category": "services",
+    "iconKey": "towing",
+    "accentHex": "#0EA5E9",
+    "titleKey": "projects.ehtezam.title",
+    "descriptionKey": "projects.ehtezam.description",
+    "highlights": [
+      "projects.ehtezam.h1",
+      "projects.ehtezam.h2",
+      "projects.ehtezam.h3"
+    ],
+    "tech": ["Flutter", "Socket.IO", "Firebase", "Google Maps", "Clean Architecture"],
+    "links": [
+      { "type": "app_store", "url": "https://apps.apple.com/us/app/ahtezam/id6756974362" }
+    ]
+  },
+  {
+    "id": "saba",
+    "category": "productivity",
+    "iconKey": "inventory",
+    "accentHex": "#8B5CF6",
+    "titleKey": "projects.saba.title",
+    "descriptionKey": "projects.saba.description",
+    "highlights": [
+      "projects.saba.h1",
+      "projects.saba.h2",
+      "projects.saba.h3"
+    ],
+    "tech": ["Flutter", "Riverpod", "Clean Architecture", "Firebase"],
+    "links": []
+  },
+  {
+    "id": "souq_oqaz",
+    "category": "e_commerce",
+    "iconKey": "marketplace",
+    "accentHex": "#F59E0B",
+    "titleKey": "projects.souq_oqaz.title",
+    "descriptionKey": "projects.souq_oqaz.description",
+    "highlights": [
+      "projects.souq_oqaz.h1",
+      "projects.souq_oqaz.h2"
+    ],
+    "tech": ["Flutter", "Firebase", "Google Maps", "Clean Architecture"],
+    "links": [
+      { "type": "app_store", "url": "https://apps.apple.com/us/app/souq-okaz-%D8%B3%D9%88%D9%82-%D8%B9%D9%83%D8%A7%D8%B8/id6770513623" },
+      { "type": "play_store", "url": "https://play.google.com/store/apps/details?id=qa.app.okaz" }
+    ]
+  },
+  {
+    "id": "high_class_services",
+    "category": "services",
+    "iconKey": "spa",
+    "accentHex": "#EC4899",
+    "titleKey": "projects.high_class_services.title",
+    "descriptionKey": "projects.high_class_services.description",
+    "highlights": [
+      "projects.high_class_services.h1",
+      "projects.high_class_services.h2"
+    ],
+    "tech": ["Flutter", "Firebase", "Google Maps", "Clean Architecture"],
+    "links": [
+      { "type": "play_store", "url": "https://play.google.com/store/apps/details?id=qa.app.hcs" },
+      { "type": "play_store", "url": "https://play.google.com/store/apps/details?id=qa.app.hcs.driver" }
+    ]
+  },
+  {
+    "id": "tech_trivia",
+    "category": "entertainment",
+    "iconKey": "quiz",
+    "accentHex": "#10B981",
+    "titleKey": "projects.tech_trivia.title",
+    "descriptionKey": "projects.tech_trivia.description",
+    "highlights": [
+      "projects.tech_trivia.h1"
+    ],
+    "tech": ["Flutter", "Firebase"],
+    "links": [
+      { "type": "play_store", "url": "https://play.google.com/store/apps/details?id=com.shymarrai.trivia.tech" }
+    ]
+  },
+  {
+    "id": "exhibition",
+    "category": "entertainment",
+    "iconKey": "museum",
+    "accentHex": "#6366F1",
+    "titleKey": "projects.exhibition.title",
+    "descriptionKey": "projects.exhibition.description",
+    "highlights": [
+      "projects.exhibition.h1"
+    ],
+    "tech": ["Flutter", "AR", "3D Models"],
+    "links": []
+  },
+  {
+    "id": "social_app",
+    "category": "social",
+    "iconKey": "forum",
+    "accentHex": "#3B82F6",
+    "titleKey": "projects.social_app.title",
+    "descriptionKey": "projects.social_app.description",
+    "highlights": [
+      "projects.social_app.h1"
+    ],
+    "tech": ["Flutter", "Firebase", "Socket.IO"],
+    "links": []
+  },
+  {
+    "id": "restaurants_booking",
+    "category": "services",
+    "iconKey": "booking",
+    "accentHex": "#E11D48",
+    "titleKey": "projects.restaurants_booking.title",
+    "descriptionKey": "projects.restaurants_booking.description",
+    "highlights": [
+      "projects.restaurants_booking.h1"
+    ],
+    "tech": ["Flutter", "Firebase"],
+    "links": []
+  },
+  {
+    "id": "invite",
+    "category": "other",
+    "iconKey": "gift",
+    "accentHex": "#DB2777",
+    "titleKey": "projects.invite.title",
+    "descriptionKey": "projects.invite.description",
+    "highlights": [
+      "projects.invite.h1"
+    ],
+    "tech": ["Flutter", "Firebase"],
+    "links": []
+  },
+  {
+    "id": "iptv",
+    "category": "entertainment",
+    "iconKey": "tv",
+    "accentHex": "#7C3AED",
+    "titleKey": "projects.iptv.title",
+    "descriptionKey": "projects.iptv.description",
+    "highlights": [
+      "projects.iptv.h1"
+    ],
+    "tech": ["Flutter", "IPTV", "HLS"],
+    "links": []
+  },
+  {
+    "id": "imtn",
+    "category": "productivity",
+    "iconKey": "sim",
+    "accentHex": "#0891B2",
+    "titleKey": "projects.imtn.title",
+    "descriptionKey": "projects.imtn.description",
+    "highlights": [
+      "projects.imtn.h1"
+    ],
+    "tech": ["Flutter", "Firebase"],
+    "links": [
+      { "type": "web", "url": "https://imtn.mtnsyr.com/pwa" }
+    ]
+  },
+  {
+    "id": "orders_delivery",
+    "category": "delivery",
+    "iconKey": "delivery",
+    "accentHex": "#F59E0B",
+    "titleKey": "projects.orders_delivery.title",
+    "descriptionKey": "projects.orders_delivery.description",
+    "highlights": [
+      "projects.orders_delivery.h1"
+    ],
+    "tech": ["Flutter", "Google Maps", "Firebase"],
+    "links": []
+  },
+  {
+    "id": "radio_app",
+    "category": "entertainment",
+    "iconKey": "radio",
+    "accentHex": "#0EA5E9",
+    "titleKey": "projects.radio_app.title",
+    "descriptionKey": "projects.radio_app.description",
+    "highlights": [
+      "projects.radio_app.h1"
+    ],
+    "tech": ["Flutter", "Audio Streaming"],
+    "links": []
+  },
+  {
+    "id": "music_app",
+    "category": "entertainment",
+    "iconKey": "music",
+    "accentHex": "#8B5CF6",
+    "titleKey": "projects.music_app.title",
+    "descriptionKey": "projects.music_app.description",
+    "highlights": [
+      "projects.music_app.h1"
+    ],
+    "tech": ["Flutter", "Audio", "Video"],
+    "links": []
+  },
+  {
+    "id": "wedding_app",
+    "category": "services",
+    "iconKey": "wedding",
+    "accentHex": "#EC4899",
+    "titleKey": "projects.wedding_app.title",
+    "descriptionKey": "projects.wedding_app.description",
+    "highlights": [
+      "projects.wedding_app.h1"
+    ],
+    "tech": ["Flutter", "Firebase"],
+    "links": []
+  },
+  {
+    "id": "cruds_mongo",
+    "category": "web_backend",
+    "iconKey": "terminal",
+    "accentHex": "#10B981",
+    "titleKey": "projects.cruds_mongo.title",
+    "descriptionKey": "projects.cruds_mongo.description",
+    "highlights": [
+      "projects.cruds_mongo.h1"
+    ],
+    "tech": ["Python", "FastAPI", "MongoDB", "Docker"],
+    "links": []
+  },
+  {
+    "id": "finance_project",
+    "category": "web_backend",
+    "iconKey": "finance",
+    "accentHex": "#059669",
+    "titleKey": "projects.finance_project.title",
+    "descriptionKey": "projects.finance_project.description",
+    "highlights": [
+      "projects.finance_project.h1"
+    ],
+    "tech": ["FastAPI", "PostgreSQL", "React"],
+    "links": []
+  }
+]
