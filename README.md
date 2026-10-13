@@ -1,6 +1,6 @@
 # profile_page
 
-Professional portfolio of Mouaz Hariri - Senior Flutter Developer
+Professional portfolio of Mouaz Hariri - Mid-Level Flutter Developer
 
 ## Getting Started
 

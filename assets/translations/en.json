@@ -14,7 +14,7 @@
     "available": "Available for new opportunities",
     "roles": {
       "flutter": "Flutter Developer",
-      "senior": "Senior Flutter Team Lead",
+      "midLevel": "Mid-Level Flutter Developer — Team Lead",
       "fullstack": "Full-Stack Mobile Developer"
     },
     "summary": "I craft production-grade mobile and web apps with nearly 5 years of experience — from clean architecture and pixel-perfect UI to real-time systems and smooth animations.",
@@ -38,7 +38,7 @@
     "overline": "About Me",
     "title": "Passionate about building great products",
     "subtitle": "A quick look at who I am and what drives me.",
-    "summary": "I'm a Senior Flutter Developer and team lead based in Damascus, currently working remotely with Akwad in Qatar. For nearly 5 years I've designed and shipped production-grade iOS & Android apps using Clean Architecture, SOLID principles and modern state management.",
+    "summary": "I'm a Mid-Level Flutter Developer and team lead based in Damascus, currently working remotely with Akwad in Qatar. For nearly 5 years I've designed and shipped production-grade iOS & Android apps using Clean Architecture, SOLID principles and modern state management.",
     "summary2": "Beyond mobile, I'm actively growing my backend and full-stack skills with Python, FastAPI and Node.js — so I can own a product from database to pixel.",
     "facts": {
       "location": "Location",
@@ -99,7 +99,7 @@
     "title": "My professional journey",
     "subtitle": "Places I've worked and things I've led along the way.",
     "akwad": {
-      "role": "Senior Flutter Developer — Team Lead",
+      "role": "Mid-Level Flutter Developer — Team Lead",
       "period": "Jan 2025 — Present",
       "type": "Full-time · Remote",
       "h1": "Leading Flutter development, architecture decisions and code review for production apps.",
@@ -282,7 +282,8 @@
       "email": "Your email",
       "message": "Your message",
       "send": "Send via Email",
-      "required": "Please fill this field"
+      "required": "Please fill this field",
+      "note": "This opens your email app with the message ready to send."
     },
     "cta": {
       "title": "Got a project in mind?",
@@ -295,7 +296,7 @@
     }
   },
   "footer": {
-    "tagline": "Senior Flutter Developer crafting production-grade mobile & web apps.",
+    "tagline": "Mid-Level Flutter Developer crafting production-grade mobile & web apps.",
     "rights": "Mouaz Hariri — All rights reserved.",
     "builtWith": "Built with"
   },

@@ -11,7 +11,7 @@ import '../../../../src/core/utils/theme/app_colors.dart';
 import '../../../../src/core/utils/theme/app_theme.dart';
 import '../../domain/entities/experience_entity.dart';
 
-/// Experience + education timeline.
+/// Professional experience timeline.
 class ExperienceSection extends StatelessWidget {
   const ExperienceSection({super.key, required this.experience});
 
@@ -20,7 +20,6 @@ class ExperienceSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final jobs = experience.where((e) => !e.isEducation).toList();
-    final education = experience.where((e) => e.isEducation).toList();
 
     return SectionScaffold(
       child: Column(
@@ -35,18 +34,6 @@ class ExperienceSection extends StatelessWidget {
           ),
           const SizedBox(height: 56),
           _Timeline(items: jobs),
-          if (education.isNotEmpty) ...[
-            const SizedBox(height: 72),
-            Reveal(
-              id: 'education-header',
-              child: SectionHeader(
-                overline: context.tr('education.overline'),
-                title: context.tr('education.title'),
-              ),
-            ),
-            const SizedBox(height: 48),
-            _Timeline(items: education, isEducation: true),
-          ],
         ],
       ),
     );
@@ -54,10 +41,9 @@ class ExperienceSection extends StatelessWidget {
 }
 
 class _Timeline extends StatelessWidget {
-  const _Timeline({required this.items, this.isEducation = false});
+  const _Timeline({required this.items});
 
   final List<ExperienceEntity> items;
-  final bool isEducation;
 
   @override
   Widget build(BuildContext context) {
@@ -90,10 +76,9 @@ class _Timeline extends StatelessWidget {
                       ? _AlternatingRow(
                           index: i,
                           item: items[i],
-                          isEducation: isEducation,
                           isLast: i == items.length - 1,
                         )
-                      : _CompactRow(item: items[i], isEducation: isEducation),
+                      : _CompactRow(item: items[i]),
               ],
             ),
           ],
@@ -107,19 +92,17 @@ class _AlternatingRow extends StatelessWidget {
   const _AlternatingRow({
     required this.index,
     required this.item,
-    required this.isEducation,
     required this.isLast,
   });
 
   final int index;
   final ExperienceEntity item;
-  final bool isEducation;
   final bool isLast;
 
   @override
   Widget build(BuildContext context) {
     final left = index.isEven;
-    final card = _ExperienceCard(item: item, isEducation: isEducation);
+    final card = _ExperienceCard(item: item);
 
     return Padding(
       padding: EdgeInsets.only(bottom: isLast ? 0 : 34),
@@ -138,7 +121,7 @@ class _AlternatingRow extends StatelessWidget {
             width: 56,
             child: Column(
               children: [
-                _TimelineDot(isEducation: isEducation),
+                const _TimelineDot(),
                 if (!isLast)
                   Container(width: 2, height: 60, color: Colors.transparent),
               ],
@@ -156,10 +139,9 @@ class _AlternatingRow extends StatelessWidget {
 }
 
 class _CompactRow extends StatelessWidget {
-  const _CompactRow({required this.item, required this.isEducation});
+  const _CompactRow({required this.item});
 
   final ExperienceEntity item;
-  final bool isEducation;
 
   @override
   Widget build(BuildContext context) {
@@ -168,17 +150,15 @@ class _CompactRow extends StatelessWidget {
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          SizedBox(
+          const SizedBox(
             width: 32,
             child: Padding(
-              padding: const EdgeInsets.only(top: 22),
-              child: _TimelineDot(isEducation: isEducation, size: 18),
+              padding: EdgeInsets.only(top: 22),
+              child: _TimelineDot(size: 18),
             ),
           ),
           const SizedBox(width: 14),
-          Expanded(
-            child: _ExperienceCard(item: item, isEducation: isEducation),
-          ),
+          Expanded(child: _ExperienceCard(item: item)),
         ],
       ),
     );
@@ -198,9 +178,8 @@ class _AlignedCard extends StatelessWidget {
 }
 
 class _TimelineDot extends StatelessWidget {
-  const _TimelineDot({this.isEducation = false, this.size = 16});
+  const _TimelineDot({this.size = 16});
 
-  final bool isEducation;
   final double size;
 
   @override
@@ -210,11 +189,10 @@ class _TimelineDot extends StatelessWidget {
       height: size,
       decoration: BoxDecoration(
         shape: BoxShape.circle,
-        gradient: isEducation ? AppGradients.violet : AppGradients.brand,
+        gradient: AppGradients.brand,
         boxShadow: [
           BoxShadow(
-            color: (isEducation ? AppColors.tertiary : AppColors.primary)
-                .withValues(alpha: 0.55),
+            color: AppColors.primary.withValues(alpha: 0.55),
             blurRadius: 14,
             spreadRadius: 3,
           ),
@@ -231,15 +209,14 @@ class _TimelineDot extends StatelessWidget {
 }
 
 class _ExperienceCard extends StatelessWidget {
-  const _ExperienceCard({required this.item, required this.isEducation});
+  const _ExperienceCard({required this.item});
 
   final ExperienceEntity item;
-  final bool isEducation;
 
   @override
   Widget build(BuildContext context) {
     final isDark = context.isDarkMode;
-    final accent = isEducation ? AppColors.tertiary : AppColors.primary;
+    final accent = AppColors.primary;
     final muted = isDark ? AppColors.darkMuted : AppColors.lightMuted;
 
     return GlassCard(
@@ -257,8 +234,7 @@ class _ExperienceCard extends StatelessWidget {
                   alignment: Alignment.center,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(14),
-                    gradient:
-                        isEducation ? AppGradients.violet : AppGradients.brand,
+                    gradient: AppGradients.brand,
                   ),
                   child: Icon(
                     portfolioIcon(item.iconKey),
@@ -380,9 +356,17 @@ class _MetaChip extends StatelessWidget {
         children: [
           Icon(icon, size: 13, color: accent),
           const SizedBox(width: 6),
-          Text(
-            label,
-            style: TextStyle(fontSize: 12, fontWeight: FontWeight.w600, color: accent),
+          Flexible(
+            child: Text(
+              label,
+              maxLines: 2,
+              overflow: TextOverflow.ellipsis,
+              style: TextStyle(
+                fontSize: 12,
+                fontWeight: FontWeight.w600,
+                color: accent,
+              ),
+            ),
           ),
         ],
       ),

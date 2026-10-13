@@ -195,11 +195,6 @@ class _AboutBody extends StatelessWidget {
 
     final facts = [
       (
-        Icons.location_on_rounded,
-        context.tr('about.facts.location'),
-        profile.location,
-      ),
-      (
         Icons.alternate_email_rounded,
         context.tr('about.facts.email'),
         profile.email,

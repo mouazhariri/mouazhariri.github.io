@@ -55,8 +55,8 @@ class HeroSection extends StatelessWidget {
     final isCompact = context.isCompact;
     final height = math.max(640.0, context.screenHeight * 0.94);
 
-    return SizedBox(
-      height: height,
+    return ConstrainedBox(
+      constraints: BoxConstraints(minHeight: height),
       child: Stack(
         children: [
           if (isCompact)
@@ -202,18 +202,17 @@ class _HeroCopy extends StatelessWidget {
           ],
         ).animate().fadeIn(duration: 500.ms).slideY(begin: 20, end: 0, delay: 550.ms),
         const SizedBox(height: 30),
-        Row(
+        Wrap(
+          spacing: 12,
+          runSpacing: 12,
           children: [
             for (final link in socialLinks)
-              Padding(
-                padding: const EdgeInsetsDirectional.only(end: 12),
-                child: MagneticHover(
-                  child: SocialIconButton(
-                    icon: _iconFor(link.type),
-                    tooltip: context.tr(link.labelKey),
-                    onTap: () => LaunchUtils.open(link.url),
-                    size: 48,
-                  ),
+              MagneticHover(
+                child: SocialIconButton(
+                  icon: _iconFor(link.type),
+                  tooltip: context.tr(link.labelKey),
+                  onTap: () => LaunchUtils.open(link.url),
+                  size: 48,
                 ),
               ),
           ],
@@ -260,12 +259,14 @@ class _AvailabilityChip extends StatelessWidget {
             duration: 900.ms,
           ),
           const SizedBox(width: 10),
-          Text(
-            context.tr('hero.available'),
-            style: const TextStyle(
-              fontSize: 13.5,
-              fontWeight: FontWeight.w600,
-              color: AppColors.success,
+          Flexible(
+            child: Text(
+              context.tr('hero.available'),
+              style: const TextStyle(
+                fontSize: 13.5,
+                fontWeight: FontWeight.w600,
+                color: AppColors.success,
+              ),
             ),
           ),
         ],

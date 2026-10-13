@@ -29,7 +29,7 @@ class NavBar extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final isCompact = context.isCompact;
+    final useMenu = !context.isExpanded;
     final labels = [
       context.tr('nav.home'),
       context.tr('nav.about'),
@@ -71,9 +71,8 @@ class NavBar extends ConsumerWidget {
                   constraints: const BoxConstraints(maxWidth: 1200),
                   child: Row(
                     children: [
-                      _Brand(onTap: () => onNavigate(0)),
-                      const Spacer(),
-                      if (isCompact)
+                      Expanded(child: _Brand(onTap: () => onNavigate(0))),
+                      if (useMenu)
                         IconButton(
                           tooltip: 'Menu',
                           onPressed: () => _openMenu(context),
@@ -86,10 +85,10 @@ class NavBar extends ConsumerWidget {
                             active: active == i,
                             onTap: () => onNavigate(i),
                           ),
-                        const SizedBox(width: 8),
+                        const SizedBox(width: 6),
                         _ThemeToggle(ref: ref),
                         _LanguageToggle(ref: ref),
-                        const SizedBox(width: 12),
+                        const SizedBox(width: 8),
                         AppButton(
                           label: context.tr('nav.hireMe'),
                           icon: Icons.chat_rounded,
@@ -154,12 +153,16 @@ class _Brand extends StatelessWidget {
             ),
           ),
           const SizedBox(width: 10),
-          Text(
-            'Mouaz Hariri',
-            style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                  fontWeight: FontWeight.w700,
-                  letterSpacing: 0.3,
-                ),
+          Flexible(
+            child: Text(
+              'Mouaz Hariri',
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+              style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                    fontWeight: FontWeight.w700,
+                    letterSpacing: 0.3,
+                  ),
+            ),
           ),
         ],
       ),
@@ -191,8 +194,8 @@ class _NavItemState extends State<_NavItem> {
         onTap: widget.onTap,
         child: AnimatedContainer(
           duration: const Duration(milliseconds: 220),
-          margin: const EdgeInsets.symmetric(horizontal: 4),
-          padding: const EdgeInsets.symmetric(horizontal: 13, vertical: 9),
+          margin: const EdgeInsets.symmetric(horizontal: 2),
+          padding: const EdgeInsets.symmetric(horizontal: 9, vertical: 9),
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(12),
             gradient: widget.active || _hover
@@ -203,7 +206,7 @@ class _NavItemState extends State<_NavItem> {
           child: Text(
             widget.label,
             style: TextStyle(
-              fontSize: 14.5,
+              fontSize: 14,
               fontWeight: widget.active ? FontWeight.w700 : FontWeight.w500,
               color: widget.active || _hover
                   ? Colors.white
